@@ -21,7 +21,6 @@ public class Scr9 {
 				System.out.println("hello there");
 			}else if(input.equals("exit")){
 				System.out.println("come again sometime!");
-				break;
 			} else{
 				System.out.println("what?");
 			}

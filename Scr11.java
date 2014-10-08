@@ -32,6 +32,7 @@ public class Scr11 {
 						+ " the front door");
 				case "lawn": System.out.println("You are on a front lawn, a house behind you.");
 				}
+				break;
 			default: System.out.println("what?");
 		}
 			}
