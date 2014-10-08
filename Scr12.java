@@ -26,6 +26,11 @@ public class Scr12 {
 					location = "lawn";
 				}
 				break;
+			case "eat": if(items[0].equals("apple")){
+					System.out.println("you eat, and feel more energized.");
+					items[0] = "apple core";
+				}
+				break;
 			case "look":
 				switch(location){
 				case "house": System.out.println("You are in a small wooden house. You can see"
