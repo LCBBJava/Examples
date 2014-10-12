@@ -30,6 +30,7 @@ public class Scr11 {
 				switch(location){
 				case "house": System.out.println("You are in a small wooden house. You can see"
 						+ " the front door");
+					break;
 				case "lawn": System.out.println("You are on a front lawn, a house behind you.");
 				}
 				break;
